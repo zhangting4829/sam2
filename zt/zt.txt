@@ -1,0 +1,10 @@
+================================================================
+代码地址：
+https://github.com/facebookresearch/sam2
+================================================================
+运行：
+python zt/main.py --dataset_type='HSI-NIR'
+python zt/main.py --dataset_type='HSI-RedNIR'
+python zt/main.py --dataset_type='HSI-VIS'
+================================================================
+这是最初的版本
