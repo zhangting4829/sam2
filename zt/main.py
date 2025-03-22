@@ -19,7 +19,7 @@ if __name__ == '__main__':
     parser.add_argument("--root_dir", default='/home/zt/Datasets/HOT/challenge2024/datasets/validation', type=str, help="Path to the root directory containing dataset folders.")
     parser.add_argument("--dataset_type", default='HSI-VIS', type=str, help="HSI-NIR, HSI-RedNIR, HSI-VIS")
     parser.add_argument("--sam2_cfg", default='sam2.1_hiera_l.yaml', type=str, help="Path to the SAM2 model configuration file.")
-    parser.add_argument("--sam2_weight", default='./checkpoints/sam2.1_hiera_large.pt', type=str, help="Path to the SAM2 model weight file.")
+    parser.add_argument("--sam2_weight", default='/home/zt/PapersCode/sam2/checkpoints/sam2.1_hiera_large.pt', type=str, help="Path to the SAM2 model weight file.")
     parser.add_argument("--result_dir", default='./result/', type=str, help="Path to the folder for saving SAM2 prediction labels.")
     args = parser.parse_args()
     run(args)
